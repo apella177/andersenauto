@@ -1,13 +1,13 @@
 public class Test3 {
     public static void main(String[] args) {
-        String[][] array = {{"Яблоки ", "Код товара:1 ", "Цена:50"}, {"Апельсины ", "Код товара:2 ", "Цена:300"}, {"Груши ", "Код товара:3 ", "Цена:100"}};
+        String[][] array = {{"Яблоки ", "Код товара:1 ", "Цена:60"}, {"Апельсины ", "Код товара:2 ", "Цена:300"}, {"Груши ", "Код товара:3 ", "Цена:100"}};
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
                 System.out.print(array[i][j]);
             }
             System.out.println();
         }
-        data(array, "Код товара:3 ");
+        data(array, "Код товара:2 ");
         boolmas();
         cycle1();
         cycle2();

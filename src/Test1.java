@@ -1,6 +1,6 @@
 public class Test1 {
     public static void main(String args[]) {
-        test(2);
+        test(3);
         System.out.println(factorial(9));
         int[] array = {1, 44, 56, 76, 3, 8, 90};
         System.out.println(average(array));

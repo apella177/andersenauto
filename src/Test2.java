@@ -2,7 +2,7 @@ public class Test2 {
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 4, 5, 6};
         string(array);
-        test(20,50);
+        test(30,50);
     }
 
     public static void string(int[] array) {
