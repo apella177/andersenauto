@@ -2,7 +2,8 @@ public class Test2 {
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 4, 5, 6};
         string(array);
-        test(30,50);
+        test(30, 50);
+        test1();
     }
 
     public static void string(int[] array) {
@@ -33,5 +34,27 @@ public class Test2 {
         } else if (time >= 22) {
             System.out.println("Идем спать");
         }
+    }
+
+    public static void test1() {                         //switch...case
+        int day =6;
+        String days = "";
+        switch (day) {
+            case 1: days = "Понедельник";
+                break;
+            case 2: days = "Вторник";
+                break;
+            case 3: days = "Среда";
+                break;
+            case 4: days = "Четверг";
+                break;
+            case 5: days = "Пятница";
+                break;
+            case 6: days = "Суббота";
+                break;
+            case 7: days = "Воскресенье";
+                break;
+        }
+        System.out.println(days);
     }
 }
