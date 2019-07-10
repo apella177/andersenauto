@@ -37,24 +37,29 @@ public class Test2 {
     }
 
     public static void test1() {                         //switch...case
-        int day =6;
-        String days = "";
+        int day = 6;
         switch (day) {
-            case 1: days = "Понедельник";
+            case 1:
+                System.out.println("Понедельник");
                 break;
-            case 2: days = "Вторник";
+            case 2:
+                System.out.println("Вторник");
                 break;
-            case 3: days = "Среда";
+            case 3:
+                System.out.println("Среда");
                 break;
-            case 4: days = "Четверг";
+            case 4:
+                System.out.println("Четверг");
                 break;
-            case 5: days = "Пятница";
+            case 5:
+                System.out.println("Пятница");
                 break;
-            case 6: days = "Суббота";
+            case 6:
+                System.out.println("Суббота");
                 break;
-            case 7: days = "Воскресенье";
+            case 7:
+                System.out.println("Воскресенье");
                 break;
         }
-        System.out.println(days);
     }
 }
