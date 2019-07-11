@@ -1,4 +1,6 @@
-public class Test1 {
+package tests;
+
+public class DataTest1 {
     public static void main(String args[]) {
         test(3);
         System.out.println(factorial(9));
@@ -7,7 +9,7 @@ public class Test1 {
         int[] array1 = {23,44,3,4,12,33};
     }
 
-    public static void test(int a) {                     //else if
+    public static void test(int a) {                     //Типы данных.Задание 5
         if ((a % 2) == 0) {
             System.out.println("число " + a + " четное");
         } else {
@@ -15,7 +17,7 @@ public class Test1 {
         }
     }
 
-    public static int factorial(int b) {                 //факториал через метод?
+    public static int factorial(int b) {                 // Типы данных.Задание 3 + Циклы.Задание 1
         int res = 1;
         for (int i = 1; i <= b; i++) {
             res *= i;
@@ -23,7 +25,7 @@ public class Test1 {
         return res;
     }
 
-    public static double average(int[] array) {           //среднее арифметическое массива
+    public static double average(int[] array) {          //Типы данных.Задание 2
         double sum = 0;
         for (int i = 0; i < array.length; i++) {
             sum += array[i];
@@ -31,11 +33,4 @@ public class Test1 {
         return sum / array.length;
     }
 }
-//        byte d = -128;    //8
-//        short b = -32001; //16
-//        int a = 10;       //32
-//        long c = 6000000; //64
-//
-//        float d = 12.3;    //32 не использовать
-//        double e = 12.8;   //64
-//
+

@@ -1,4 +1,6 @@
-public class Test2 {
+package tests;
+
+public class DataTest2 {
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 4, 5, 6};
         string(array);
@@ -7,21 +9,22 @@ public class Test2 {
     }
 
     public static void string(int[] array) {
-        String str = "";                                      //преобразование числового массива в строковый и обратно
+        String str = "";                                      //Типы данных.Задание 9 + 10
         for (int i = 0; i < array.length; i++) {
             str += array[i];
         }
         System.out.println(str);
         String str1 = "123456";
-        System.out.println(str.charAt(0));
-        System.out.println(str.charAt(1));
-        System.out.println(str.charAt(2));
-        System.out.println(str.charAt(3));
-        System.out.println(str.charAt(4));
-        System.out.println(str.charAt(5));
+        String str2 = " Hello";
+        System.out.println(str.charAt(0) + str2);
+        System.out.println(str.charAt(1) + str2);
+        System.out.println(str.charAt(2) + str2);
+        System.out.println(str.charAt(3) + str2);
+        System.out.println(str.charAt(4) + str2);
+        System.out.println(str.charAt(5) + str2);
     }
 
-    public static void test(int time, int money) {           //ветвление
+    public static void test(int time, int money) {            //Операторы.Задание 1
 
         if (time >= 8 && time < 12 && money >= 10) {
             System.out.println("Идем в магазин");
@@ -36,7 +39,7 @@ public class Test2 {
         }
     }
 
-    public static void test1() {                         //switch...case
+    public static void test1() {                            //switch...case - Для себя
         int day = 6;
         switch (day) {
             case 1:
