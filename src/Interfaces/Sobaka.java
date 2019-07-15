@@ -4,7 +4,7 @@ public class Sobaka implements Animals {
     public static void main(String[] args) {
         Sobaka sobaka1 = new Sobaka();
         System.out.println(sobaka1.height(1));
-        System.out.println(sobaka1.weight(40.4));
+        System.out.println(sobaka1.weight(41.4));
         System.out.println(sobaka1.move(20.5));
         sobaka1.eat();
         System.out.println(sobaka1.height(0.5));
