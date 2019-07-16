@@ -1,4 +1,4 @@
-package Interfaces;
+package OopTask10;
 
 public class Dog extends Sobaka {
     @Override

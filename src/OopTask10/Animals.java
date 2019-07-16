@@ -1,4 +1,4 @@
-package Interfaces;
+package OopTask10;
 
 public interface Animals {
 

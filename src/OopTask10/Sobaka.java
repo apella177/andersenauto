@@ -1,4 +1,4 @@
-package Interfaces;
+package OopTask10;
 
 public class Sobaka implements Animals {
     public static void main(String[] args) {
