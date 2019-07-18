@@ -1,11 +1,11 @@
-package dataTests;
+package Task9;
 
-public class Test {                                                 //Классы и объекты. Задание 1,2
+public class DataTest1 {                                                 //Классы и объекты. Задание 1,2
     public static void main(String[] args) {
-        Test obj1 = new Test();
+        DataTest1 obj1 = new DataTest1();
         String a = obj1.name("HI", "1");
         System.out.println(a);
-        Test obj2 = new Test();
+        DataTest1 obj2 = new DataTest1();
         String b = obj2.name("HI", "2");
         System.out.println(b);
     }

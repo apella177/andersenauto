@@ -1,4 +1,4 @@
-package dataTests;
+package Task6;
 
 public class DataTest1 {
     public static void main(String args[]) {
