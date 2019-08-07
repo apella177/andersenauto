@@ -12,7 +12,6 @@ public class Dog extends Sobaka {
     }
     @Override
     public int height() { return (int) height;}
-
     public double height(String str) {
         if (str.equals("metres")) {
             return height;
@@ -22,11 +21,10 @@ public class Dog extends Sobaka {
     }
     @Override
     public double weight() {return (int) weight;}
-
     public double weight(String str1) {
         if (str1.equals("kg")) {
             return weight;
-        } else if (str1.equals("gramms")) {
+        } else if (str1.equals("grams")) {
             return weight * 1000;
         } else { return 0.0; }
     }

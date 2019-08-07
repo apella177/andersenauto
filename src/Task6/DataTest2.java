@@ -1,25 +1,20 @@
 package Task6;
 
-public class DataTest2 {
-    public static void main(String[] args) {
-        int[] array = {1, 2, 3, 4, 5, 6};
-        string(array);
-    }
+import java.util.Arrays;
 
-    public static void string(int[] array) {
-        String str = "";                                      //Типы данных.Задание 9 + 10
-        for (int i = 0; i < array.length; i++) {
-            str += array[i];
-        }
-        System.out.println(str);
+public class DataTest2 {
+    public static void main(String[] args) {                  //Типы данных.Задание 9 + 10
+        int[] array = {1, 2, 3, 4, 5, 6};
+        System.out.println(Arrays.toString(array));
+
         String str1 = "123456";
         String str2 = " Hello";
-        System.out.println(str.charAt(0) + str2);
-        System.out.println(str.charAt(1) + str2);
-        System.out.println(str.charAt(2) + str2);
-        System.out.println(str.charAt(3) + str2);
-        System.out.println(str.charAt(4) + str2);
-        System.out.println(str.charAt(5) + str2);
+        System.out.println(str1.charAt(0) + " +" + str2);
+        System.out.println(str1.charAt(1) + " +" + str2);
+        System.out.println(str1.charAt(2) + " +" + str2);
+        System.out.println(str1.charAt(3) + " +" + str2);
+        System.out.println(str1.charAt(4) + " +" + str2);
+        System.out.println(str1.charAt(5) + " +" + str2);
     }
 
 }

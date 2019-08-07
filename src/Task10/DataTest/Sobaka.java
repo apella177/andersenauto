@@ -4,7 +4,7 @@ public class Sobaka implements Animals {
     public static void main(String[] args) {
         Dog dog1 = new Dog(1.0, 40,44.4);
         System.out.println(dog1.height("pounds"));
-        System.out.println(dog1.weight("gramms"));
+        System.out.println(dog1.weight("grams"));
         System.out.println(dog1.move("ms"));
 
     }

@@ -1,6 +1,8 @@
 package Task8;
 
-public class DataTest1 {
+import org.junit.Test;
+
+public class DataTest1 {                                             //Задание 1 в Task6
     public static void main(String[] args) {
         cycle1();
         cycle2();
@@ -15,7 +17,7 @@ public class DataTest1 {
         }
     }
 
-    public static void cycle2() {                                   ////Циклы. Задание 2 do....while
+    public static void cycle2() {                                   //Циклы. Задание 2 do....while
         int a = 15;
         do {
             System.out.println(a);
@@ -24,7 +26,7 @@ public class DataTest1 {
         while (a >= 10);
     }
 
-    public static void random1() {                                   ////Циклы. Задание 3
+    public static void random1() {                                   //Циклы. Задание 3
         int[] array = {1, 545, 6, 1, 6, 5, 7, 456, 2, 2};
         for (int x : array) {
             if (x == 5) {
