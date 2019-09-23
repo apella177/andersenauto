@@ -21,6 +21,6 @@ public class DataTest1 {
 //checked exception (compile time exception) == исключительные случаи в работе программы,
 // могут возникать в ходе работы программы
 
-//unchecked exception (runtime exception) == ошибка в работе программы), не нужно обрабатовать,
+//unchecked exception ((runtime exception) == ошибка в работе программы), не нужно обрабатовать,
 // данные ошибки нужно устранять
 

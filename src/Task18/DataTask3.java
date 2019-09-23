@@ -26,7 +26,6 @@ public class DataTask3 {
         myThread10.start();
     }
 }
-
 class MyThread extends Thread {
 
     public MyThread(String name) {
